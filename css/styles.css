@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 100px;
+  padding: 0;
+  color: #333;
+  background: #fff url(light-veneer.png);
+}
+
+
+.site-header{
+  width: 100%;
+  padding: 20px 20px;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+}
+
+.site-header h1 {
+  margin: 0; padding: 0;
+  font-size: 20px;
+}
+
+.site-header a {	
+  text-decoration: none;
+  color: darkred;
+}
+
+.content-header{
+  text-align:center;
+}
+
+.page-header{
+  text-align:center;
+}
+
+.page-header h1 {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1em;
+}
+.page-header h1:before {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  display: inline-block;
+  width: 60px;
+  height: 5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: black;
+  border-radius: 2px;
+}
+
+.items {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.item img {
+  width: 100%;
+}
+
+.item-title{
+  text-align: center;
+  font-size: 12px;
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: darkgreen;
+  background: white;
+  transition: .4s;
+}
+
+.item-title:hover{
+  background: darkgreen;
+  color: white;
+}
+
+.pageitems {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.pageitem img{
+  width: 100%;
+}
+
+.yomihuda h2{
+  font-size: 20px;
+}
+
+.content-footer .button a {
+  background: darkred;
+  color: #fff;
+  padding: 1rem;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.content-footer .button{
+  text-align: center;
+  margin:2rem 0;
+}
+
+.content-footer .button a:hover {
+  background: #fff;
+  color: darkred;
+}
+
+.sns {
+  margin: 50px 0 10px;
+  text-align: center;
+}
+
+.sns .fab {
+  font-size: 30px;
+}
+
+.fa-twitter {
+  color: #1da1f2;
+}
+
+hr {
+  margin:50px 0;
+  border-top: 2px solid rgb(97, 64, 39);
+  border-bottom: 1px solid #fff;
+}
+
+.credit{
+  text-align: center;
+  margin: 50px 0;
+  font-size:12px;
+}
+
+
+/*画面幅が576px以上（タブレット、デスクトップ）に適用したいスタイル*/
+@media (min-width: 576px) {
+  .item {
+    width: 12.66%;
+    margin: 2%;
+  }
+
+  .content-header {
+    font-size: 15px
+  }
+
+  .content-body{
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .pageitem {
+    width: 46%;
+    margin: 2%;
+  }
+
+}
+
+/*画面幅が575px以下（スマホ）に適用したいスタイル*/
+@media (max-width: 575px) {
+  .item {
+    width: 21%;
+    margin: 2%;
+  }
+  
+  .content-header {
+    font-size: 10px
+  }
+
+  .pageitem {
+    width: 46%;
+    margin: 2%;
+  }
+
+}
