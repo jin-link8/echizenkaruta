@@ -177,6 +177,10 @@ hr {
     margin: 2%;
   }
 
+  .yomihuda{
+    font-size: 12px
+  }
+
 }
 
 /*画面幅が575px以下（スマホ）に適用したいスタイル*/
@@ -193,6 +197,10 @@ hr {
   .pageitem {
     width: 46%;
     margin: 2%;
+  }
+
+  .yomihuda{
+    font-size: 10px
   }
 
 }
