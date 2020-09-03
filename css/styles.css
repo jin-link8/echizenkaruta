@@ -28,9 +28,6 @@ body {
   color: darkred;
 }
 
-.content-header{
-  text-align:center;
-}
 
 .page-header{
   text-align:center;
@@ -161,7 +158,8 @@ hr {
   }
 
   .content-header {
-    font-size: 14px
+    text-align:center;
+    font-size: 14px;
   }
 
   .content-body{
@@ -175,7 +173,7 @@ hr {
   }
 
   .yomihuda h2{
-    font-size: 13px
+    font-size: 13px;
   }
 
 }
@@ -188,7 +186,8 @@ hr {
   }
   
   .content-header {
-    font-size: 10px
+    text-align:center;
+    font-size: 10px;
   }
 
   .pageitem {
@@ -197,7 +196,7 @@ hr {
   }
 
   .yomihuda h2{
-    font-size: 8px
+    font-size: 8px;
   }
 
 }
