@@ -33,6 +33,26 @@ body {
   text-align:center;
 }
 
+.content-body .button{
+  text-align: center;
+}
+
+.btn-flat-double-border {
+  font-size:15px ;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: darkred;
+  border: double 4px darkred;
+  border-radius: 3px;
+  transition: .4s;
+}
+
+.btn-flat-double-border:hover {
+  background: white;
+}
+
 /* タイトル装飾　relativeつけるとバグる */
 /* .page-header h1:before {
   content: '';
