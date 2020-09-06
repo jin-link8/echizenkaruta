@@ -34,12 +34,13 @@ body {
 }
 
 .page-header h1 {
-  position: relative;
+  text-align: center;
+  /* position: relative; */
   display: inline-block;
   margin-bottom: 1em;
   font-size: 30px;
 }
-.page-header h1:before {
+/* .page-header h1:before {
   content: '';
   position: absolute;
   bottom: -15px;
@@ -51,7 +52,7 @@ body {
   transform: translateX(-50%);
   background-color: black;
   border-radius: 2px;
-}
+} */
 
 .items {
   display: -webkit-flex;
@@ -73,7 +74,7 @@ body {
 .item-title{
   text-align: center;
   font-size: 12px;
-  position: relative;
+  /* position: relative; */
   display: inline-block;
   font-weight: bold;
   padding: 0.25em 0.5em;

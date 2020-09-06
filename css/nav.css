@@ -118,7 +118,7 @@
   transition: transform .6s ease, opacity .2s ease;
 }
 
-#nav-drawer li&:nth-child(2) {
+/* #nav-drawer li&:nth-child(2) {
   transition-delay: .15s;
 }
 
@@ -140,7 +140,7 @@
 
 #nav-drawer li&:nth-child(7) {
   transition-delay: .9s;
-}
+} */
 
 /* open */
 .open {
