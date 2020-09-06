@@ -198,6 +198,10 @@ hr {
     margin: 0 auto;
   }
 
+  .content-body p{
+    font-size:12px
+  }
+
   .page-header h1 {
     /* position: relative; */
     display: inline-block;
