@@ -33,13 +33,7 @@ body {
   text-align:center;
 }
 
-.page-header h1 {
-  text-align: center;
-  /* position: relative; */
-  display: inline-block;
-  margin-bottom: 1em;
-  font-size: 30px;
-}
+
 /* .page-header h1:before {
   content: '';
   position: absolute;
@@ -169,6 +163,13 @@ hr {
     margin: 0 auto;
   }
 
+  .page-header h1 {
+    /* position: relative; */
+    display: inline-block;
+    margin-bottom: 1em;
+    font-size: 30px;
+  }
+
   .pageitem {
     width: 46%;
     margin: 2%;
@@ -192,13 +193,20 @@ hr {
     font-size: 10px;
   }
 
+  .page-header h1 {
+    /* position: relative; */
+    display: inline-block;
+    margin-bottom: 1em;
+    font-size: 25px;
+  }
+
   .pageitem {
     width: 46%;
     margin: 2%;
   }
 
   .yomihuda h2{
-    font-size: 14px;
+    font-size: 12px;
   }
 
 }
