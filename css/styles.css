@@ -6,14 +6,15 @@ body {
   margin-top: 100px;
   padding: 0;
   color: #333;
-  background: #fff url(p0428_m.png);
+  background: #fff url(541639_m.jpg);
 }
 
 
 .site-header{
   width: 100%;
   padding: 20px 20px;
-  background-color: #fff;
+  margin:0;
+  background: #fff url(3229890_s.jpg);
   position: fixed;
   top: 0;
 }
