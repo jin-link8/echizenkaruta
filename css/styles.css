@@ -29,7 +29,6 @@ body {
   color: darkred;
 }
 
-
 .page-header{
   text-align:center;
 }
@@ -169,6 +168,13 @@ hr {
 
 /*画面幅が576px以上（タブレット、デスクトップ）に適用したいスタイル*/
 @media (min-width: 576px) {
+
+  .samune img {
+    width: 100%;
+    height: auto;
+    padding:0% 10%;
+  }
+
   .item {
     width: 12.66%;
     margin: 2%;
@@ -204,6 +210,12 @@ hr {
 
 /*画面幅が575px以下（スマホ）に適用したいスタイル*/
 @media (max-width: 575px) {
+
+  .samune img {
+    width: 100%;
+    height: auto;
+  }
+
   .item {
     width: 21%;
     margin: 2%;
