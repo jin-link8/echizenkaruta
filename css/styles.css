@@ -227,7 +227,12 @@ hr {
   .yomihuda h2{
     font-size: 18px;
   }
-
+  
+  /* .iframe{
+    width:600px; 
+    height:450px; 
+  }
+ */
 }
 
 /*画面幅が575px以下（スマホ）に適用したいスタイル*/
@@ -289,5 +294,11 @@ hr {
   .yomihuda h2{
     font-size: 12px;
   }
+
+  .iframe{
+    width:600px; 
+    height:450px; 
+  }
+
 
 }
