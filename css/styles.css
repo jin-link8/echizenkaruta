@@ -73,6 +73,25 @@ body {
   border-radius: 2px;
 } */
 
+.event{
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  font-weight: bold;
+ /* background: #FFF; */
+  border: solid 3px darkslategrey;/*線*/
+  border-radius: 10px;/*角の丸み*/
+}
+
+/* .event p{
+  margin: 0; 
+  padding: 0;
+} */
+
+.event video{
+  width: 100%;
+  height: auto;
+}
+
 .items {
   display: -webkit-flex;
   display: -moz-flex;
