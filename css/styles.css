@@ -42,6 +42,10 @@ body {
   padding: 5% 0 0 0;
 }
 
+.secret .button{
+  text-align: right;
+}
+
 .btn-flat-double-border {
   font-size:15px ;
   display: inline-block;
@@ -154,6 +158,19 @@ body {
   background:#fff url(3229890_s.jpg);
 }
 
+.secretword{
+  margin: 80px 0px 0px 0px;
+  text-align: center;
+}
+
+.hint{
+  text-align: center;
+  margin: 80px 0px 0px 0px;
+}
+
+.hint p{
+ font-size:12px;
+}
 
 .content-footer .button a {
   background: darkred;
