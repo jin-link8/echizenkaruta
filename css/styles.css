@@ -218,6 +218,7 @@ hr {
 
 .downlode .button{
   text-align: center;
+  margin: 40px 0;
 }
 
 .btn-square {
@@ -237,6 +238,14 @@ hr {
   border-bottom: none;/*線を消す*/
 }
 
+.down-item{
+  margin: 60px 0;
+}
+
+.down-item img{
+  width: 100%;
+  height: auto;
+}
 
 /*画面幅が576px以上（タブレット、デスクトップ）に適用したいスタイル*/
 @media (min-width: 576px) {
