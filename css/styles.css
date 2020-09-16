@@ -98,6 +98,7 @@ body {
   height: auto;
 }
 
+
 .items {
   display: -webkit-flex;
   display: -moz-flex;
@@ -264,6 +265,7 @@ hr {
     padding:0% 20%;
   }
 
+
   .item {
     width: 12.66%;
     margin: 2%;
@@ -277,7 +279,7 @@ hr {
   }
 
   .content-body{
-    width: 600px;
+    width: 700px;
     margin: 0 auto;
   }
 
