@@ -3,7 +3,7 @@
 }
 
 body {
-  margin-top: 100px;
+  margin: 90px 0 0 0;
   padding: 0;
   color: #333;
   background: #fff url(541639_m.jpg);
@@ -98,6 +98,18 @@ body {
   height: auto;
 }
 
+.content-person{
+  background-color: darkred;
+  margin: 0 30px;
+}
+
+
+.content-person p{
+  display: inline-block;
+  vertical-align:top;
+  font-weight: bold;
+  color: #fff;
+}
 
 .items {
   display: -webkit-flex;
@@ -265,6 +277,10 @@ hr {
     padding:0% 20%;
   }
 
+  .content-person img{
+    width: 300px;
+    margin:10px 10px;
+  }
 
   .item {
     width: 12.66%;
@@ -327,6 +343,11 @@ hr {
     width: 100%;
     height: auto;
     padding:0% 10%;
+  }
+
+  .content-person img{
+    width: 200px;
+    margin:10px 10px;
   }
 
   .item {
