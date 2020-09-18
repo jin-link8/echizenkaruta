@@ -98,9 +98,88 @@ body {
   height: auto;
 }
 
-.content-person{
+/* .content-person{
   background-color: darkred;
   margin: 0 30px;
+} */
+
+/*プロフィール枠*/
+#author_profile {
+  border: 1px solid darkred;
+  width: 100%;
+  margin: 40px auto;
+  overflow: hidden;
+}
+#author_profile p {
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+/*この記事を書いた人の見出し*/
+#author_profile p.label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background: darkred;
+  padding: 10px 15px;
+}
+/*名前*/
+#author_profile p.author_name {
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+}
+/*名前下の下線*/
+#author_profile p.author_name::after {
+  content: "";
+  border-bottom: solid 3px darkred;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -6px;
+}
+/*左側画像ブロック*/
+#author_profile .left {
+  width: 14%;
+  float: left;
+  margin: 10px 0 15px 30px;
+}
+/*画像サイズ*/
+#author_profile .left img {
+  width: 100%;
+}
+/*右側テキストブロック*/
+#author_profile .right {
+  width: 74%;
+  float: left;
+  font-size: 12px;
+  line-height: 1.6;
+  padding: 5px 0 20px 30px;
+}
+
+/*SP時の挙動（画面サイズが小さい時）*/
+@media (max-width: 480px) {
+  #author_profile p.author_name {
+    text-align: center;
+  }
+  #author_profile .left {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  #author_profile .left img {
+    width: 33%;
+  }
+  #author_profile .right {
+    width: 100%;
+    float: none;
+    padding: 10px 20px 0;
+  }
+  #author_profile .right ul.author_sns li {
+    margin-bottom: 20px;
+  }
 }
 
 
