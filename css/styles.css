@@ -37,6 +37,10 @@ body {
   padding: 0px 0px 60px 0px;
 }
 
+.omoi p{
+  text-align: center;
+}
+
 .content-body .button{
   text-align: center;
   padding: 5% 0 0 0;
