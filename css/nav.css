@@ -66,11 +66,11 @@
 
 /* z-index */
 #nav-toggle {
-  z-index: 1000;
+  z-index: 1000000;
 }
 
 #container {
-  z-index: 900;
+  z-index: 900000;
 }
 
 #nav-drawer {
@@ -81,7 +81,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 990;
+  z-index: 990000;
   text-align: center;
   display: flex;
   visibility: hidden;

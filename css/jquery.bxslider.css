@@ -4,6 +4,7 @@
 ===================================*/
 .bx-wrapper {
   position: relative;
+  z-index: 1000;
   margin-bottom: 60px;
   padding: 0;
   *zoom: 1;
@@ -150,6 +151,7 @@ ul.bxslider {
 /* IMAGE CAPTIONS */
 .bx-wrapper .bx-caption {
   position: absolute;
+  z-index: 900;
   bottom: 0;
   left: 0;
   background: #666;

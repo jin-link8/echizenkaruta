@@ -16,6 +16,7 @@ body {
   margin:0;
   background: #fff url(3229890_s.jpg);
   position: fixed;
+  z-index: 10000;
   top: 0;
 }
 
@@ -132,12 +133,14 @@ body {
   font-weight: bold;
   display: inline-block;
   position: relative;
+  z-index: 900;
 }
 /*名前下の下線*/
 #author_profile p.author_name::after {
   content: "";
   border-bottom: solid 3px darkred;
   position: absolute;
+  z-index: 900;
   left: 0;
   right: 0;
   bottom: -6px;
