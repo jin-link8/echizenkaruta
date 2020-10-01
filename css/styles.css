@@ -103,6 +103,14 @@ body {
   height: auto;
 }
 
+.linkcolor a{
+ color: rgb(97, 64, 39);
+}
+
+.linkcolor a:hover{
+  color: rgb(148, 107, 58);
+}
+
 /* .content-person{
   background-color: darkred;
   margin: 0 30px;
