@@ -101,7 +101,7 @@ body {
   margin: 2em 0;
   font-weight: bold;
  /* background: #FFF; */
-  border: solid 3px darkslategrey;/*線*/
+  border: solid 3px darkred;/*線*/
   border-radius: 10px;/*角の丸み*/
 }
 
@@ -119,11 +119,13 @@ body {
 
 
 .linkcolor a{
- color: rgb(97, 64, 39);
+ color: darkslategrey;
+ text-decoration: none;
 }
 
 .linkcolor a:hover{
-  color: rgb(148, 107, 58);
+  color: #333;
+  text-decoration: none;
 }
 
 /* .content-person{
@@ -371,7 +373,6 @@ hr {
 
   .content-header h1{
     text-align:center;
-    text-decoration: underline;
     font-size: 24px;
     /* color: darkred; */
   }
@@ -435,7 +436,6 @@ hr {
   
   .content-header h1{
     text-align:center;
-    text-decoration: underline;
     font-size: 20px;
     /* color: darkred; */
   }
