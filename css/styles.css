@@ -101,7 +101,7 @@ body {
   margin: 2em 0;
   font-weight: bold;
  /* background: #FFF; */
-  border: solid 3px darkred;/*線*/
+  border: solid 2px darkred;/*線*/
   border-radius: 10px;/*角の丸み*/
 }
 
@@ -304,7 +304,7 @@ body {
 
 hr {
   margin:50px 0 0 0;
-  border-top: 2px solid rgb(97, 64, 39);
+  border-top: 2px solid #333;
   border-bottom: 1px solid #fff;
 }
 
