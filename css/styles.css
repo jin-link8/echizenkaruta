@@ -23,6 +23,7 @@ body {
 .site-header h1 {
   margin: 0; padding: 0;
   font-size: 20px;
+  text-align: center;
 }
 
 .site-header a {	
@@ -69,10 +70,11 @@ body {
 }
 
 /* タイトル装飾　relativeつけるとバグる */
-/* .page-header h1:before {
-  content: '';
+.page-header h1::after {
+  content: "";
   position: absolute;
-  bottom: -15px;
+  z-index: 900;
+  bottom: 550px;
   display: inline-block;
   width: 60px;
   height: 5px;
@@ -81,7 +83,7 @@ body {
   transform: translateX(-50%);
   background-color: black;
   border-radius: 2px;
-} */
+}
 
 .event{
   padding: 0.5em 1em;
@@ -395,7 +397,7 @@ hr {
 
 }
 
-/*画面幅が575px以下（スマホ）に適用したいスタイル*/
+/*画面幅が575px以下（スマホ575）に適用したいスタイル*/
 @media (max-width: 575px) {
 
   .samune img {
@@ -449,6 +451,21 @@ hr {
     display: inline-block;
     margin-bottom: 1em;
     font-size: 30px;
+  }
+
+  .page-header h1::after {
+    content: "";
+    position: absolute;
+    z-index: 900;
+    bottom: 580px;
+    display: inline-block;
+    width: 60px;
+    height: 5px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: black;
+    border-radius: 2px;
   }
 
   .pageitem {
