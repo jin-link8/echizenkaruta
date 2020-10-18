@@ -104,7 +104,8 @@
 }
 
 #nav-drawer a:hover {
-  color: grey;
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
 }
 
 
