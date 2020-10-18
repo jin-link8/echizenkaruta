@@ -3,7 +3,7 @@
 }
 
 body {
-  margin: 90px 0 0 0;
+  margin: 73px 0 0 0;
   padding: 0;
   color: #333;
   background: #fff url(541639_m.jpg);
@@ -42,13 +42,17 @@ body {
   color: darkred;
 }
 
+.content-header{
+  margin: 100px 0 0 0;
+}
+
 .page-header{
   text-align:center;
 }
 
-.setumei{
+/* .setumei{
   padding: 0px 0px 60px 0px;
-}
+} */
 
 
 .omoi p{
@@ -384,7 +388,7 @@ footer{
 
   .content-header h1{
     text-align:center;
-    font-size: 24px;
+    font-size: 30px;
     /* color: darkred; */
   }
 
@@ -447,7 +451,7 @@ footer{
   
   .content-header h1{
     text-align:center;
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .content-body{
