@@ -89,7 +89,7 @@ body {
   content: "";
   position: absolute;
   z-index: 900;
-  bottom: 570px;
+  bottom: 550px;
   display: inline-block;
   width: 60px;
   height: 5px;
@@ -179,6 +179,7 @@ body {
 /*画像サイズ*/
 #author_profile .left img {
   width: 100%;
+  border-radius: 50%;
 }
 /*右側テキストブロック*/
 #author_profile .right {
@@ -415,7 +416,7 @@ footer{
     font-size: 18px;
   }
 
-  .balloon2-right {
+  /* .balloon2-right {
     position: relative;
     display: inline-block;
     margin: 50px 15px 1.5em 0;
@@ -436,7 +437,7 @@ footer{
     margin-top: -15px;
     border: 15px solid transparent;
     border-left: 15px solid rgb(97,102,38);
-  }
+  } */
   
   .balloon2-right p {
     color: #fff;
@@ -464,6 +465,10 @@ footer{
     padding: 0;
   }
 
+  .twitter-link{
+    text-align: center;
+  }
+
 
   /* 作者からコメント */
   .comment{
@@ -481,12 +486,12 @@ footer{
     width: 80px;
   }
   
-  .balloon5 .faceicon img{
+  /* .balloon5 .faceicon img{
     width: 100%;
     height: auto;
     border: solid 3px rgb(97,102,38);
     border-radius: 50%;
-  }
+  } */
   
   .balloon5 .chatting {
     width: 100%;
@@ -584,6 +589,7 @@ footer{
   }
   #author_profile .left img {
     width: 33%;
+    border-radius: 50%;
   }
   #author_profile .right {
     width: 100%;
@@ -632,7 +638,7 @@ footer{
     font-size: 12px;
   }
 
-  .balloon2-right {
+  /* .balloon2-right {
     position: relative;
     display: inline-block;
     margin: 50px 0 1.5em 0;
@@ -653,7 +659,7 @@ footer{
     margin-left: -15px;
     border: 15px solid transparent;
     border-top: 15px solid rgb(97,102,38);
-  }
+  } */
   
   
   .balloon2-right p {
@@ -700,12 +706,12 @@ footer{
     width: 80px;
   }
   
-  .balloon5 .faceicon img{
+  /* .balloon5 .faceicon img{
     width: 100%;
     height: auto;
     border: solid 3px rgb(97,102,38);
     border-radius: 50%;
-  }
+  } */
   
   .balloon5 .chatting {
     width: 100%;
