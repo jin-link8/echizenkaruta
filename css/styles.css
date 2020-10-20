@@ -89,7 +89,7 @@ body {
   content: "";
   position: absolute;
   z-index: 900;
-  bottom: 550px;
+  bottom: 570px;
   display: inline-block;
   width: 60px;
   height: 5px;
@@ -132,10 +132,6 @@ body {
   text-decoration: none;
 }
 
-/* .content-person{
-  background-color: darkred;
-  margin: 0 30px;
-} */
 
 /*プロフィール枠*/
 #author_profile {
@@ -246,16 +242,13 @@ body {
   width: 100%;
 }
 
-.page-setumei p{
-  margin: 0px 0px 600px 0px;
-}
 
 .content-body iframe{
   width: 100%;
 }
 
 .access{
-  margin: 80px 0px 0px 0px;
+  margin: 40px 0px 0px 0px;
   padding: 5px;
   background:#fff url(3229890_s.jpg);
 }
@@ -421,6 +414,108 @@ footer{
   .yomihuda h2{
     font-size: 18px;
   }
+
+  .balloon2-right {
+    position: relative;
+    display: inline-block;
+    margin: 50px 15px 1.5em 0;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    color: rgb(97,102,38);
+    font-size: 16px;
+    background: rgb(97,102,38);
+    border-radius: 10px;
+  }
+  
+  .balloon2-right:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 98%;
+    margin-top: -15px;
+    border: 15px solid transparent;
+    border-left: 15px solid rgb(97,102,38);
+  }
+  
+  .balloon2-right p {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  .hitokoto{
+    font-size: 18px;
+    padding: 40px 0 0 0;
+    float:right;
+    width:70%;
+    font-weight: bold;
+  }
+
+  .page-setumei p{
+    font-size: 16px;
+  }
+
+  .omise img{
+    width: 250px;
+    height: auto;
+    border-radius: 10px;
+    padding: 0;
+  }
+
+
+  /* 作者からコメント */
+  .comment{
+    padding: 80px 0 0 0;
+  }
+  .balloon5 {
+    width: 100%;
+    margin: 1.5em 5%;
+    overflow: hidden;
+  }
+  
+  .balloon5 .faceicon {
+    float: left;
+    margin-right: -90px;
+    width: 80px;
+  }
+  
+  .balloon5 .faceicon img{
+    width: 100%;
+    height: auto;
+    border: solid 3px rgb(97,102,38);
+    border-radius: 50%;
+  }
+  
+  .balloon5 .chatting {
+    width: 100%;
+  }
+  
+  .says {
+    display: inline-block;
+    position: relative; 
+    margin: 5px 10% 0 105px;
+    padding: 17px 13px;
+    border-radius: 12px;
+    background: #fff;
+  }
+  
+  .says:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 18px; 
+    left: -24px;
+    border: 12px solid transparent;
+    border-right: 12px solid #fff;
+  }
+  
+  .says p {
+    margin: 0;
+    padding: 0;
+  }
+  /* コメント終わり */
   
  .access h1{
    text-align: center;
@@ -476,6 +571,36 @@ footer{
     font-size: 12px;
   }
 
+  /* プロフィール(スマホサイズは480) */
+  #author_profile p.author_name {
+    text-align: center;
+  }
+  #author_profile .left {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+    margin-bottom: 0;
+    text-align: center;
+  }
+  #author_profile .left img {
+    width: 33%;
+  }
+  #author_profile .right {
+    width: 100%;
+    float: none;
+    font-size: 12px;
+    padding: 10px 20px 0;
+  }
+  #author_profile .right ul.author_sns li {
+    margin-bottom: 20px;
+  }
+
+  .secretword p{
+    font-size: 25px;
+  }
+
+  /* 各ページ */
+
   .page-header h1 {
     /* position: relative; */
     display: inline-block;
@@ -507,37 +632,116 @@ footer{
     font-size: 12px;
   }
 
+  .balloon2-right {
+    position: relative;
+    display: inline-block;
+    margin: 50px 0 1.5em 0;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    color: rgb(97,102,38);
+    font-size: 14px;
+    background: rgb(97,102,38);
+    border-radius: 10px;
+  }
+  
+  .balloon2-right:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 30%;
+    margin-left: -15px;
+    border: 15px solid transparent;
+    border-top: 15px solid rgb(97,102,38);
+  }
+  
+  
+  .balloon2-right p {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hitokoto p{
+    font-size: 13px;
+    font-weight: bold;
+    margin: 5px 0 0 0;
+    padding: 0 0 10px 0;
+  }
+
+  .page-setumei p{
+    font-size: 12px;
+  }
+
+  .omise img{
+    width: 140px;
+    height: auto;
+    border-radius: 10px;
+    padding: 0;
+  }
+
+
+
+  /* 作者からコメント */
+  .comment{
+    padding: 60px 0 0 0;
+  }
+
+  .balloon5 {
+    width: 100%;
+    margin: 1.5em 5%;
+    overflow: hidden;
+  }
+  
+  .balloon5 .faceicon {
+    float: left;
+    margin-right: -90px;
+    width: 80px;
+  }
+  
+  .balloon5 .faceicon img{
+    width: 100%;
+    height: auto;
+    border: solid 3px rgb(97,102,38);
+    border-radius: 50%;
+  }
+  
+  .balloon5 .chatting {
+    width: 100%;
+  }
+  
+  .says {
+    display: inline-block;
+    position: relative; 
+    /* margin: 5px 0 0 105px; */
+    margin: 5px 10% 0 105px;
+    padding: 17px 13px;
+    border-radius: 12px;
+    background: #fff;
+  }
+  
+  .says:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 18px; 
+    left: -24px;
+    border: 12px solid transparent;
+    border-right: 12px solid #fff;
+  }
+  
+  .says p {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+  }
+  /* コメント終わり */
+
   .access h1{
     text-align: center;
     font-size: 18px;
   }
 
-  /* プロフィール(スマホサイズは480) */
-  #author_profile p.author_name {
-    text-align: center;
-  }
-  #author_profile .left {
-    width: 100%;
-    float: none;
-    margin-left: 0;
-    margin-bottom: 0;
-    text-align: center;
-  }
-  #author_profile .left img {
-    width: 33%;
-  }
-  #author_profile .right {
-    width: 100%;
-    float: none;
-    font-size: 12px;
-    padding: 10px 20px 0;
-  }
-  #author_profile .right ul.author_sns li {
-    margin-bottom: 20px;
-  }
-
-  .secretword p{
-    font-size: 25px;
-  }
 
 }
