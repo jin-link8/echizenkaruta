@@ -93,12 +93,7 @@ a.btn--radius {
     border-radius: 50%;
   }
 
-  .sobasato img{
-    width: 500px;
-    height: auto;
-    border-radius: 10px;
-    padding: 0;
-  }
+ 
 
 
 }
@@ -137,11 +132,6 @@ a.btn--radius {
     border-radius: 50%;
   }
 
-  .sobasato img{
-    width: 300px;
-    height: auto;
-    border-radius: 10px;
-    padding: 0;
-  }
+  
 
 }
