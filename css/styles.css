@@ -453,7 +453,7 @@ footer{
   }
   .balloon5 {
     width: 100%;
-    margin: 1.5em 5%;
+    margin: 1.5em 10%;
     overflow: hidden;
   }
   
@@ -471,7 +471,7 @@ footer{
   .says {
     display: inline-block;
     position: relative; 
-    margin: 5px 10% 0 105px;
+    margin: 5px 20% 0 105px;
     padding: 17px 13px;
     border-radius: 12px;
     background: #fff;
@@ -609,29 +609,6 @@ footer{
   .yomihuda h2{
     font-size: 12px;
   }
-
-  /* .balloon2-right {
-    position: relative;
-    display: inline-block;
-    margin: 50px 0 1.5em 0;
-    padding: 7px 10px;
-    min-width: 120px;
-    max-width: 100%;
-    color: rgb(97,102,38);
-    font-size: 14px;
-    background: rgb(97,102,38);
-    border-radius: 10px;
-  }
-  
-  .balloon2-right:before {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 30%;
-    margin-left: -15px;
-    border: 15px solid transparent;
-    border-top: 15px solid rgb(97,102,38);
-  } */
   
   
   .balloon2-right p {
@@ -678,12 +655,6 @@ footer{
     width: 80px;
   }
   
-  /* .balloon5 .faceicon img{
-    width: 100%;
-    height: auto;
-    border: solid 3px rgb(97,102,38);
-    border-radius: 50%;
-  } */
   
   .balloon5 .chatting {
     width: 100%;
