@@ -357,13 +357,9 @@ footer{
   height: auto;
 }
 
-.triangle1{
-  width: 0;
-  height: 0;
-  border-left: 30px solid black;
-  border-top: 30px solid transparent;
-  border-bottom: 30px solid transparent;
-}
+
+.mycontent:before{content:"\025b6";}
+
 
 /*画面幅が576px以上（タブレット、デスクトップ）に適用したいスタイル*/
 @media (min-width: 576px) {
