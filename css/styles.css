@@ -358,9 +358,6 @@ footer{
 }
 
 
-.mycontent:before{content:"\025b6";}
-
-
 /*画面幅が576px以上（タブレット、デスクトップ）に適用したいスタイル*/
 @media (min-width: 576px) {
 
