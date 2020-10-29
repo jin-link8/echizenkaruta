@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/earlyaccess/notosansjapanese.css');
+
 * {
   box-sizing: border-box;
+  font-family: "Noto Sans Japanese";  /* フォントを指定 */
 }
 
 body {
