@@ -7,9 +7,9 @@
     padding: 7px 10px;
     min-width: 120px;
     max-width: 100%;
-    color: rgb(36,45,100);
+    color: rgb(53,37,100);
     font-size: 16px;
-    background: rgb(36,45,100);
+    background: rgb(53,37,100);
     border-radius: 10px;
   }
   
@@ -20,13 +20,13 @@
     left: 98%;
     margin-top: -15px;
     border: 15px solid transparent;
-    border-left: 15px solid rgb(36,45,100);
+    border-left: 15px solid rgb(53,37,100);
   }
 
   .balloon5 .faceicon img{
     width: 100%;
     height: auto;
-    border: solid 3px rgb(36,45,100);
+    border: solid 3px rgb(53,37,100);
     border-radius: 50%;
   }
 
@@ -45,9 +45,9 @@
     padding: 7px 10px;
     min-width: 120px;
     max-width: 100%;
-    color: rgb(36,45,100);
+    color: rgb(53,37,100);
     font-size: 14px;
-    background: rgb(36,45,100);
+    background: rgb(53,37,100);
     border-radius: 10px;
   }
   
@@ -58,14 +58,14 @@
     left: 30%;
     margin-left: -15px;
     border: 15px solid transparent;
-    border-top: 15px solid rgb(36,45,100);
+    border-top: 15px solid rgb(53,37,100);
   }
 
   /* 円 */
   .balloon5 .faceicon img{
     width: 100%;
     height: auto;
-    border: solid 3px rgb(36,45,100);
+    border: solid 3px rgb(53,37,100);
     border-radius: 50%;
   }
 
