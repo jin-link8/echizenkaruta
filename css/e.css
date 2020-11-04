@@ -41,12 +41,12 @@ button.btn {
 }
 
 a.btn--red.btn--cubic {
-  border-bottom: 5px solid rgb(101,37,54);
+  border-bottom: 5px solid rgb(81,36,101);
 }
 
 a.btn--red.btn--cubic:hover {
   margin-top: 3px;
-  border-bottom: 2px solid rgb(101,37,54);
+  border-bottom: 2px solid rgb(81,36,101);
 }
 
 a.btn--radius {
@@ -68,9 +68,9 @@ a.btn--radius {
     padding: 7px 10px;
     min-width: 120px;
     max-width: 100%;
-    color: rgb(53,37,100);
+    color: rgb(81,36,101);
     font-size: 16px;
-    background: rgb(53,37,100);
+    background: rgb(81,36,101);
     border-radius: 10px;
   }
   
@@ -81,13 +81,13 @@ a.btn--radius {
     left: 98%;
     margin-top: -15px;
     border: 15px solid transparent;
-    border-left: 15px solid rgb(53,37,100);
+    border-left: 15px solid rgb(81,36,101);
   }
 
   .balloon5 .faceicon img{
     width: 100%;
     height: auto;
-    border: solid 3px rgb(53,37,100);
+    border: solid 3px rgb(81,36,101);
     border-radius: 50%;
   }
 
@@ -106,9 +106,9 @@ a.btn--radius {
     padding: 7px 10px;
     min-width: 120px;
     max-width: 100%;
-    color: rgb(53,37,100);
+    color: rgb(81,36,101);
     font-size: 14px;
-    background: rgb(53,37,100);
+    background: rgb(81,36,101);
     border-radius: 10px;
   }
   
@@ -119,14 +119,14 @@ a.btn--radius {
     left: 30%;
     margin-left: -15px;
     border: 15px solid transparent;
-    border-top: 15px solid rgb(53,37,100);
+    border-top: 15px solid rgb(81,36,101);
   }
 
   /* 円 */
   .balloon5 .faceicon img{
     width: 100%;
     height: auto;
-    border: solid 3px rgb(53,37,100);
+    border: solid 3px rgb(81,36,101);
     border-radius: 50%;
   }
 
