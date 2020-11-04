@@ -1,0 +1,135 @@
+.official-site{
+  text-align: right;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* font-size: 62.5%; *//*rem算出をしやすくするために*/
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  background-color: #fff;
+  border-radius: 0.5rem;
+}
+
+a.btn--red.btn--cubic {
+  border-bottom: 5px solid rgb(101,37,54);
+}
+
+a.btn--red.btn--cubic:hover {
+  margin-top: 3px;
+  border-bottom: 2px solid rgb(101,37,54);
+}
+
+a.btn--radius {
+  border-radius: 100vh;
+}
+
+.fa-position-right {
+  position: absolute;
+  top: calc(50% - .5em);
+  right: 1rem;
+}
+
+/*画面幅が576px以上（タブレット、デスクトップ）に適用したいスタイル*/
+@media (min-width: 576px){
+  .balloon2-right {
+    position: relative;
+    display: inline-block;
+    margin: 50px 15px 1.5em 0;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    color: rgb(53,37,100);
+    font-size: 16px;
+    background: rgb(53,37,100);
+    border-radius: 10px;
+  }
+  
+  .balloon2-right:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 98%;
+    margin-top: -15px;
+    border: 15px solid transparent;
+    border-left: 15px solid rgb(53,37,100);
+  }
+
+  .balloon5 .faceicon img{
+    width: 100%;
+    height: auto;
+    border: solid 3px rgb(53,37,100);
+    border-radius: 50%;
+  }
+
+ 
+
+
+}
+
+/*画面幅が575px以下（スマホ575）に適用したいスタイル*/
+@media (max-width: 575px){
+  /* 吹き出し */
+  .balloon2-right {
+    position: relative;
+    display: inline-block;
+    margin: 50px 0 1.5em 0;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    color: rgb(53,37,100);
+    font-size: 14px;
+    background: rgb(53,37,100);
+    border-radius: 10px;
+  }
+  
+  .balloon2-right:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 30%;
+    margin-left: -15px;
+    border: 15px solid transparent;
+    border-top: 15px solid rgb(53,37,100);
+  }
+
+  /* 円 */
+  .balloon5 .faceicon img{
+    width: 100%;
+    height: auto;
+    border: solid 3px rgb(53,37,100);
+    border-radius: 50%;
+  }
+
+  
+
+}
