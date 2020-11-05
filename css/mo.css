@@ -1,0 +1,74 @@
+/*画面幅が576px以上（タブレット、デスクトップ）に適用したいスタイル*/
+@media (min-width: 576px){
+  .balloon2-right {
+    position: relative;
+    display: inline-block;
+    margin: 50px 15px 1.5em 0;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    color: rgb(38,97,101);
+    font-size: 16px;
+    background: rgb(38,97,101);
+    border-radius: 10px;
+  }
+  
+  .balloon2-right:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 98%;
+    margin-top: -15px;
+    border: 15px solid transparent;
+    border-left: 15px solid rgb(38,97,101);
+  }
+
+  .balloon5 .faceicon img{
+    width: 100%;
+    height: auto;
+    border: solid 3px rgb(38,97,101);
+    border-radius: 50%;
+  }
+
+ 
+
+
+}
+
+/*画面幅が575px以下（スマホ575）に適用したいスタイル*/
+@media (max-width: 575px){
+  /* 吹き出し */
+  .balloon2-right {
+    position: relative;
+    display: inline-block;
+    margin: 50px 0 1.5em 0;
+    padding: 7px 10px;
+    min-width: 120px;
+    max-width: 100%;
+    color: rgb(38,97,101);
+    font-size: 14px;
+    background: rgb(38,97,101);
+    border-radius: 10px;
+  }
+  
+  .balloon2-right:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 30%;
+    margin-left: -15px;
+    border: 15px solid transparent;
+    border-top: 15px solid rgb(38,97,101);
+  }
+
+  /* 円 */
+  .balloon5 .faceicon img{
+    width: 100%;
+    height: auto;
+    border: solid 3px rgb(38,97,101);
+    border-radius: 50%;
+  }
+
+  
+
+}
