@@ -382,9 +382,12 @@ footer{
     padding:0% 20%;
   }
 
+  .items{
+    margin:5% 10%;
+  }
 
   .item {
-    width: 12.66%;
+    width: 16%;
     margin: 2%;
   }
 
